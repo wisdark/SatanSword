@@ -9,14 +9,14 @@
 ![release](https://img.shields.io/badge/Release-v0.1-orange.svg)
 
 
-### >>>Docker使用(同时集成了AngelSword)
-- 1.拉取镜像 docker pull fuckuanywhere/satansword
-- 2.执行命令 docker run -ti fuckuanywhere/satansword /bin/bash -c "service mysql start && python3 /root/SatanSword/SatanSword.py"
+### >>>Docker使用
+- 1.拉取镜像 docker pull satansword/satansword
+- 2.执行命令 docker run -ti satansword/satansword /bin/bash -c "service mariadb start && python3 /root/SatanSword/SatanSword.py"
 
 ### >>>功能描述
 - web指纹识别，集成whatweb及wappalyzer所有指纹及自己收集的web服务器指纹1839条+cms指纹1936条。
 
-- 漏洞PoC检测，提供360+PoC检测脚本内置在数据库中，同时支持漏洞查询和代码查看及一键批量检测功能。
+- 漏洞PoC检测，提供1000+PoC检测脚本内置在数据库中，同时支持漏洞查询和代码查看及一键批量检测功能。
 
 - 批量web信息和端口信息查询，web信息包括headers，whois，dig，CDN检测，指纹检测，IP位置检测。端口扫描使用masscan+nmap探测常用端口指纹服务。
 
